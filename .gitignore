@@ -1,0 +1,19 @@
+# Session & cache data
+history.jsonl
+cache/
+debug/
+downloads/
+file-history/
+paste-cache/
+plans/
+session-env/
+shell-snapshots/
+stats-cache.json
+statsig/
+tasks/
+telemetry/
+todos/
+plugins/
+
+# Project-specific data (contains local paths)
+projects/
