@@ -1,3 +1,7 @@
+# Local settings (machine-specific)
+settings.json
+settings.local.json
+
 # Session & cache data
 history.jsonl
 cache/
