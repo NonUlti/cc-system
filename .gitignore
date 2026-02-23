@@ -19,5 +19,11 @@ telemetry/
 todos/
 plugins/
 
+# Dependencies
+node_modules/
+
+# OS
+.DS_Store
+
 # Project-specific data (contains local paths)
 projects/
