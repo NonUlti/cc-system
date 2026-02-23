@@ -92,3 +92,7 @@ node ~/.claude/scripts/docs/doc-workflow/generate.js --type <type> --json <data.
 - 내용이 많으면 카테고리별로 여러 파일로 분리하고, `README.md`에 문서 목록 링크를 포함한다.
   - 예: `docs/flow/README.md`, `docs/flow/login.md`, `docs/flow/join.md` ...
 - 결과 경로를 사용자에게 안내한다.
+
+## 주의사항
+
+- 생성하는 파일은 반드시 trailing newline(`\n`)으로 끝나야 한다. Write 도구 사용 시 content 마지막에 개행을 포함한다.

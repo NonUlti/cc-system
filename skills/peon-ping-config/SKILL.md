@@ -38,3 +38,7 @@ To show available packs, run:
 ```bash
 bash "${CLAUDE_CONFIG_DIR:-$HOME/.claude}"/hooks/peon-ping/peon.sh packs list
 ```
+
+## 주의사항
+
+- 수정한 파일은 반드시 trailing newline(`\n`)으로 끝나야 한다. Edit 도구로 수정 후 파일 끝에 개행이 있는지 확인한다.

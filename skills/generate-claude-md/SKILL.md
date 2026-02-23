@@ -172,3 +172,7 @@ allowed-tools: Read, Write, Edit, Glob, Grep, AskUserQuestion, Bash(find:*), Bas
 - **금방 낡는 정보**: 이미 해결된 임시 해결책, 완료된 마이그레이션 계획, 더 이상 유효하지 않은 TODO
 - **과도하게 긴 설명**: 상세한 문서는 별도 파일로 분리하고 링크만 기재하라. CLAUDE.md는 매 대화마다 컨텍스트에 로드된다.
 - **개인 환경 특화 내용**: 특정 개발자의 로컬 경로, 개인 IDE 설정, 특정 OS에만 해당하는 설정
+
+### 파일 생성 규칙
+
+- 생성하거나 수정하는 파일은 반드시 trailing newline(`\n`)으로 끝나야 한다. Write 도구 사용 시 content 마지막에 개행을 포함한다.
