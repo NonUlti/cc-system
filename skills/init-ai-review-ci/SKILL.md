@@ -278,4 +278,5 @@ soop-review/review.gitlab-ci.yml include가 감지되었습니다.
 - `before_script: []`는 항상 포함한다 (글로벌 before_script 간섭 방지).
 - `workflow:rules`는 추가하지 않는다 (가이드 기준).
 - extends는 `.soop-review`만 사용한다 (다른 변형은 테스트 단계).
+- 생성하거나 수정한 YAML 파일은 반드시 trailing newline(`\n`)으로 끝나야 한다. Write 도구 사용 시 content 마지막에 개행을 포함하고, Edit 도구로 파일 끝에 내용을 추가할 때도 마지막 줄 뒤에 개행이 있는지 확인한다.
 - 에이전트(Task tool)를 사용하지 않는다. 모든 작업을 직접 수행한다.
